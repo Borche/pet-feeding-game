@@ -5,7 +5,7 @@ let gameScene = new Phaser.Scene('Game');
 gameScene.init = function () {
   // game stats
   this.stats = {
-    health: 15,
+    health: 100,
     fun: 100
   };
 
