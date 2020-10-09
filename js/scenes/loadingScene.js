@@ -53,9 +53,10 @@ loadingScene.preload = function () {
     spacing: 1
   });
 
-  for (let i = 0; i < 1200; i++) {
-    this.load.image('test' + i, 'assets/images/candy.png');
-  }
+  // Fake loading bar with many image loads, so that it doesn't fill so quickly
+  // for (let i = 0; i < 1200; i++) {
+  //   this.load.image('test' + i, 'assets/images/candy.png');
+  // }
 };
 
 loadingScene.create = function () {
