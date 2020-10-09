@@ -177,8 +177,8 @@ gameScene.placeItem = function (pointer, localX, localY) {
         this
       );
 
-      // setTimeout(() => newItem.destroy(), 400);
-      newItem.destroy();
+      setTimeout(() => newItem.destroy(), 400);
+      // newItem.destroy();
 
       this.updateStats(this.selectedItem.customStats);
     }
